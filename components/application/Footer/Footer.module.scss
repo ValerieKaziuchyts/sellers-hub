@@ -1,0 +1,95 @@
+.footer {
+  background-color: #F6F6FA;
+}
+
+.footer-container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.footer-upper-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-icons {
+
+}
+
+.footer-logo {
+  margin-bottom: 80px;
+}
+
+.footer-icons-wrapper {
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-icon-button {
+  margin-right: 25px;
+  padding: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    transition: .2s;
+  }
+}
+
+.footer-icon {
+
+}
+
+.footer-links-wrapper {
+  display: flex;
+}
+
+.footer-product-column {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    margin-bottom: 15px;
+  }
+}
+
+.footer-category-column {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    margin-bottom: 15px;
+  }
+
+  &:last-child {
+    margin-top: 20px;
+    margin-bottom: 65px;
+    margin-right: 0;
+  }
+}
+
+.footer-bottom-box {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-policy {
+  display: flex;
+
+  h6 {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,302 @@
+.breadcrumbs-wrapper {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs-home-icon {
+  display: flex;
+}
+
+.tabs-and-user-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tabs-wrapper {
+  max-width: 692px;
+
+  & div[role=tabpanel] > div{
+    padding: 0;
+  }
+}
+
+.user-info-wrapper {
+  padding: 20px;
+  max-width: 390px;
+  // width: 35%;
+  width: max-content;
+}
+
+.user-info-card {
+  margin-bottom: 20px;
+}
+
+.user-info-photo-name-rating {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.user-info-photo-wrapper {
+  margin-right: 20px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    z-index: 10;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #357EFE;
+  }
+}
+
+.user-info-photo {
+
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rating-gold-number {
+  margin-left: 5px;
+  color: #FFC225;
+}
+
+.rating-feedback-number {
+  margin-left: 5px;
+}
+
+.user-info {
+  margin: 10px 0;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info-edit-button {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding: 15px 80px;
+}
+
+.tabpabel-carousel-info-wrapper {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.carousel-info-wrapper {
+  display: flex;
+}
+
+.carousel-info {
+
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-chip-wrapper {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  z-index: 10;
+}
+
+.carousel-chip {
+  margin-right: 5px;
+  background-color: white;
+  font-family: Mulish;
+  font-weight: 600;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.carousel {
+  margin-right: 20px;
+  min-width: 288px;
+}
+
+.carousel-indicator {
+  margin-right: 5px;
+  width: 85px;
+  height: 4px;
+  border-radius: 21px;
+  background-color: #357EFE;
+  opacity: 0.2;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.carousel-active-indicator {
+  margin-right: 5px;
+  background-color: #357EFE;
+  border-radius: 21px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.carousel-user-photo-name-action-icons {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-user-photo-name-icons {
+  display: flex;
+  align-items: center;
+}
+
+.add-new-service-card {
+  margin-top: 25px;
+}
+
+.add-new-service-button {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  width: 100%;
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background-color: #EDEDFF;
+  }
+}
+
+.carousel-user-photo {
+  margin-right: 14px;
+}
+
+.carousel-user-name-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-user-icons {
+  margin-top: 5px;
+  display: flex;
+}
+
+.carousel-user-icon-button {
+  margin-right: 6px;
+  padding: 0;
+}
+
+.carousel-user-icon {
+
+}
+
+.carousel-action-icons {
+  display: flex;
+}
+
+.action-icon-button {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #EDEDFF;
+  border-radius: 8px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.carousel-info-hours-days-price {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-info-hours-days {
+  display: flex;
+}
+
+.icon-hours {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+.icon-days {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+.order-info-card {
+  margin-bottom: 100px;
+  padding: 24px;
+}
+
+.order-info {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-icon-info {
+  display: flex;
+  align-items: flex-start;
+
+  img {
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+}
+
+.order-text {
+  max-width: 170px;
+}
+
+.order-icons {
+  margin-top: 25px;
+  display: flex;
+}
+
+.order-icons-button {
+  margin-right: 15px;
+  padding: 0;
+}
+
+.order-icon {
+
+}
+
+.user-info-header {
+  margin-top: 10px;
+  padding: 15px 0;
+}
+
+.user-info-description {
+  margin-bottom: 10px;
+}
+
+.user-info-link {
+  text-decoration: none;
+}

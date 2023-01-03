@@ -85,14 +85,14 @@ body {
   overflow-x: hidden;
 }
 
+/* delete padding which is appears while click on header menu */
 body {
+  padding-right: 0 !important;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+header {
+  padding-right: 0 !important;
 }
 
 a {
